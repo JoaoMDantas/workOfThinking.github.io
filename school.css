@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: absolute; /* Adiciona essa linha */
+  top: 50%; /* Adiciona essa linha */
+  
+ 
+left: 50%; /* Adiciona essa linha */
+  
+ 
+transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#inputText {
+    height: 150px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#result {
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#result.green {
+    color: #4CAF50;
+}
+
+#result.red {
+    color: #f44336;
+}
+
+#btnGerar:hover {
+    background-color: #008CBA;
+}
+
+#btnVerificar:hover {
+    background-color: #f44336;
+}
