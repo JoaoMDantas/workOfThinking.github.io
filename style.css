@@ -120,6 +120,7 @@
       font-size: 24px;
       margin-left: 30px;
       margin-right: 8px;
+      color: normal;
 
   
     }
@@ -128,8 +129,13 @@
       font-size: 16px;
       margin-left: 30px;
       margin-right: 8px;
+      color:normal;
 
   
+    }
+    li{margin-left: 30px;
+      color:black;
+
     }
   }
   
