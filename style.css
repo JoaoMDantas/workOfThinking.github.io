@@ -120,8 +120,10 @@
       font-size: 24px;
       margin-left: 30px;
       margin-right: 8px;
-      color: normal;
+      color: black;
+      background-color:black;
 
+      text-align: center;
   
     }
     
@@ -129,12 +131,15 @@
       font-size: 16px;
       margin-left: 30px;
       margin-right: 8px;
-      color:normal;
+      color:black;
+      background-color:black;
+      text-align: center;
 
   
     }
-    li{margin-left: 30px;
+    li{margin-left: 30px auto;
       color:black;
+      text-align: center;
 
     }
   }
