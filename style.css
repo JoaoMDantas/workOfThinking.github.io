@@ -118,20 +118,12 @@
     
     section h2 {
       font-size: 24px;
-      margin-left: 50px!;
-      margin-right: 50px!;
-      padding: 10px;
-      color: blue;
-      background-color: pink;
     }
     
     section p {
       font-size: 16px;
-   color: yellow;
-   background-color: violet;
-      text-align: center;
-      padding: 10px;
     }
   }
+  
 
  
