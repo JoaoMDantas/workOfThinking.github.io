@@ -118,7 +118,8 @@
     
     section h2 {
       font-size: 24px;
-      margin-left: 20px;
+      margin-left: 50px!;
+      margin-right: 50px!;
       padding: 10px;
       text-align: center;
     }
