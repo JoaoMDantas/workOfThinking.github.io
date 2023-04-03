@@ -141,7 +141,19 @@
       text-align: center;
 
     }
-  }
+    section .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      margin-left:40px;
+      background-color: #1b2327;
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: all 0.2s ease-in-out;
+    }}
   
 
  

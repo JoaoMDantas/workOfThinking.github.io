@@ -31,12 +31,12 @@ function gerarTextoAleatorio() {
 function verificarInformacao() {
 	const texto = inputText.value.toLowerCase();
 
-	if (texto.includes('confiáveis')|| texto.includes('brasil') || texto.includes('professora') ||texto.includes('mosquitos') || texto.includes('everest')|| texto.includes('afonsinho')|| texto.includes('morcego')||texto.includes('tartarugas')) {
+	if (texto.includes('confiáveis')|| texto.includes('café') || texto.includes('professora') ||texto.includes('mosquitos') || texto.includes('everest')|| texto.includes('afonsinho')|| texto.includes('morcego')||texto.includes('tartarugas')) {
 		result.innerText = 'A informação é verdadeira.';
 		result.style.color = 'green';
 		if(texto.includes('professora')){text.textContent="A professora gosta muito da nossa equipe!";}
 		if(texto.includes('confiáveis')){text.textContent="Sim, nossa equipe é muito responsável.";}
-		if(texto.includes('brasil')){text.textContent="O Brasil é o maior produtor de café do mundo.";}
+		if(texto.includes('café')){text.textContent="O Brasil é o maior produtor de café do mundo.";}
 		if(texto.includes('afonsinho')){text.textContent="Afonsinho e Mozart são grandes amigos.";}
 		if(texto.includes('tartaruga')){text.textContent="Sim, pois possuem uma série de características que as incluem neste grupo de animais e, ao mesmo tempo, as diferenciam dos anfíbios.";}
 		if(texto.includes('morcego')){text.textContent=" É o único mamífero capaz de voar, estima-se que mais de 1.200 espécies diferentes de morcegos habitam o planeta.";}
