@@ -128,7 +128,7 @@
     }
     
     section p {
-      font-size: 16px;
+      font-size: 24px;
       margin-left: 30px;
       margin-right: 8px;
     
@@ -143,6 +143,7 @@
     }
     section .btn {
       display: inline-block;
+      text-align: center;
       padding: 12px 24px;
       margin-left:0px;
       background-color: #1b2327;
