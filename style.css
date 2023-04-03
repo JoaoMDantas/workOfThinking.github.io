@@ -118,10 +118,14 @@
     
     section h2 {
       font-size: 24px;
+      margin: 20px;
+      padding: 10px;
     }
     
     section p {
       font-size: 16px;
+      margin: 20px;
+      padding: 10px;
     }
   }
 
