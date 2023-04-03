@@ -123,7 +123,7 @@
       margin-right: 8px;
     
 
-      text-align: center;
+      text-align: justify;
   
     }
     
@@ -132,19 +132,19 @@
       margin-left: 30px;
       margin-right: 8px;
     
-      text-align: center;
+      text-align: justify;
 
   
     }
     li{margin-left: 30px auto;
     
-      text-align: center;
+      text-align:justify;
 
     }
     section .btn {
       display: inline-block;
       padding: 12px 24px;
-      margin-left:40px;
+      margin-left:0px;
       background-color: #1b2327;
       color: #fff;
       font-size: 18px;
