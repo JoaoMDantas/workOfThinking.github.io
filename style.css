@@ -37,6 +37,7 @@
     margin: 5px;
     display: flex;
     align-items: center;
+    font-size: 14px;
   }
   
   nav .menu li {
@@ -156,7 +157,7 @@
       margin:0px auto;
       background-color: #1b2327;
       color: #fff;
-      font-size: 18px;
+      font-size: 15px;
       font-weight: bold;
       text-transform: uppercase;
       text-decoration: none;
