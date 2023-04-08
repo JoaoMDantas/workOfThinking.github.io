@@ -34,13 +34,14 @@
   }
   
   nav .menu {
+    margin: 5px;
     display: flex;
     align-items: center;
   }
   
   nav .menu li {
-    list-style: none;
-    margin-left: 20px;
+    list-style:none;
+    margin-left:20px;
   }
   
   nav .menu li:first-child {
@@ -80,9 +81,13 @@
   }
   
   section .btn {
+    position: absolute;
+   
+    left: 50%;
+    transform: translateX(-50%);
     display: inline-block;
     padding: 12px 24px;
-    margin-left:430px;
+  
     background-color: #1b2327;
     color: #fff;
     font-size: 18px;
@@ -114,7 +119,7 @@
     }
     
     nav .menu li {
-      margin: 10px 0;
+      margin-left: 8px;
     }
     
     section h2 {
@@ -142,9 +147,12 @@
 
     }
     section .btn {
+      position: absolute;
+      left: 50%;
+     transform: translateX(-50%);
       display: inline-block;
       text-align: center;
-      padding: 12px 24px;
+      padding: 5px 10px;
       margin:0px auto;
       background-color: #1b2327;
       color: #fff;
