@@ -109,9 +109,7 @@
   }
   @media only screen and (max-width: 600px) {
     /* Styles for screens smaller than 600px */
-    nav .menu {
-      flex-direction: column;
-    }
+
     
     nav .menu li {
       margin: 10px 0;
