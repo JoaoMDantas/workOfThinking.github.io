@@ -12,14 +12,10 @@ body {
     padding: 20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    position: absolute; /* Adiciona essa linha */
-  top: 50%; /* Adiciona essa linha */
-  
- 
-left: 50%; /* Adiciona essa linha */
-  
- 
-transform: translate(-50%, -50%);
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
 }
 
 h1 {

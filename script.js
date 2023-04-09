@@ -4,7 +4,7 @@ const inputText = document.getElementById('inputText');
 const result = document.getElementById('result');
 const text= document.querySelector('p');
 
-const textos = ['A professora vai dar nota máxima para o nosso trabalho?',
+let textos = ['A professora vai dar nota máxima para o nosso trabalho?',
     'É verdade que o monte Everest cresce?',
 	'Afonsinho ama mozart?' ,
 	'Bolsonaro é o presidente do Brasil?',
@@ -21,17 +21,37 @@ const textos = ['A professora vai dar nota máxima para o nosso trabalho?',
 ];
 
 
+
+  
+
+let textosUtilizados = [];
+
 // Função para gerar texto aleatório
 function gerarTextoAleatorio() {
-	const textoAleatorio = textos[Math.floor(Math.random() * textos.length)];
-	inputText.value = textoAleatorio;
+    if (textosUtilizados.length === textos.length) {
+        textosUtilizados = [];
+    }
+    let textoAleatorio;
+    do {
+        textoAleatorio = textos[Math.floor(Math.random() * textos.length)];
+    } while (textosUtilizados.includes(textoAleatorio));
+    textosUtilizados.push(textoAleatorio);
+    inputText.value = textoAleatorio;
 }
 
 // Função para verificar informação
 function verificarInformacao() {
 	const texto = inputText.value.toLowerCase();
 
-	if (texto.includes('confiáveis')|| texto.includes('café') || texto.includes('professora') ||texto.includes('mosquitos') || texto.includes('everest')|| texto.includes('afonsinho')|| texto.includes('morcego')||texto.includes('tartarugas')) {
+	if (texto.includes('confiáveis')||
+	    texto.includes('café') ||
+		texto.includes('professora') || 
+		texto.includes('mosquitos') ||
+	    texto.includes('everest')||
+		texto.includes('afonsinho')||
+		texto.includes('morcego')||
+		texto.includes('tartarugas')
+		) {
 		result.innerText = 'A informação é verdadeira.';
 		result.style.color = 'green';
 		if(texto.includes('professora')){text.textContent="A professora gosta muito da nossa equipe!";}
@@ -46,7 +66,12 @@ function verificarInformacao() {
 	}
 		
 		
-	else if  (texto.includes('bolsonaro')|| texto.includes('óleo') || texto.includes('hitler') ||texto.includes('messi')|| texto.includes('bob')){
+	else if  ( texto.includes('bolsonaro')|| 
+	           texto.includes('óleo') ||
+	           texto.includes('hitler') ||
+	           texto.includes('messi')||
+	           texto.includes('bob')
+			   ){
 		result.innerText = 'A informação não é verdadeira.';
 		result.style.color = 'red';
 		if(texto.includes('bolsonaro')){text.textContent="O presidente do Brasil se chama Lula.";}

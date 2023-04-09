@@ -114,7 +114,7 @@
     text-align: center;
   }
   @media only screen and (max-width: 600px) {
-    /* Styles for screens smaller than 600px */
+    /* ajustes para tela de celular */
     nav .menu{
       padding: 4px;
     }
@@ -150,7 +150,7 @@
     section .btn {
       position: absolute;
       left: 50%;
-     transform: translateX(-50%);
+      transform: translateX(-50%);
       display: inline-block;
       text-align: center;
       padding: 5px 10px;
