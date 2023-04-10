@@ -91,3 +91,19 @@ footer {
   footer p {
     text-align: center;
   }
+  .social-icons {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 87%;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    max-width: 30px;
+    height: auto;
+    background:none ;}
