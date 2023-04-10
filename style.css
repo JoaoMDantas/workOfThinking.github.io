@@ -130,6 +130,7 @@
     /* ajustes para tela de celular */
     nav .menu{
       padding: 4px;
+      width: 100%;
     }
     
     nav .menu li {
