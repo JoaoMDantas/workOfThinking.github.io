@@ -77,3 +77,17 @@ button:hover {
 #btnVerificar:hover {
     background-color: #f44336;
 }
+footer {
+    background-color: #1d4761;
+    color: #fffefe;
+    padding:0px auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 6%;
+ align-items: center;
+  }
+  
+  footer p {
+    text-align: center;
+  }
